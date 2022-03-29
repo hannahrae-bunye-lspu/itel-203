@@ -1,0 +1,325 @@
+<DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HTML Form</title>
+		<style>
+			*{
+				box-sizing: border-box;
+				margin: 0px;
+			}
+			header{
+				background-color: #c9956b;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 25px;
+				padding-bottom: 25px;
+				text-align: center;
+				font-size: 25px;
+
+			}
+			form{
+				background-color: #ffc89c;
+			}
+			.name{
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				margin-left: 15px;
+			}
+			.name label{
+				font-family: georgia;
+				font-size: 18px;
+				margin: 0px 20px 0px 10px;
+			}
+			.name input {
+				vertical-align: middle;
+				margin: 1px 10px 1px 0;
+				padding: 10px;
+				border: 1px solid;
+
+			}
+			.account{
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				margin-left: 15px;
+			}
+			.account label{
+				font-family: georgia;
+				font-size: 18px;
+				margin: 0px 20px 0px 10px;
+			}
+			.account input {
+				vertical-align: middle;
+				margin: 1px 80px 1px 0;
+				padding: 10px;
+				border: 1px solid;
+			}
+			.additional{
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				margin-left: 15px;
+			}
+			.additional label{
+				font-family: georgia;
+				font-size: 18px;
+				margin: 0px 20px 0px 10px;
+			}
+			.additional input {
+				vertical-align: middle;
+				margin: 1px 10px 1px 10px;
+				padding: 10px;
+				border: 1px solid;
+
+			}
+			.additional2{
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				margin-left: 15px;
+			}
+			.additional2 label{
+				font-family: georgia;
+				font-size: 18px;
+				margin: 0px 100px 0px 10px;
+			}
+			.additional2 input {
+				vertical-align: middle;
+				margin: 0px 20px 0px 10px;
+				padding: 10px;
+				border: 1px solid;
+
+			}
+			p{
+				padding-top: 10px;
+				padding-bottom: 5px;
+				margin-left: 25px;
+				font-size: 18px;
+				font-family: georgia;
+			}
+			h2{
+				padding-top: 20px;
+				padding-bottom: 20px;
+				text-align: center;
+			}
+			hr.solid {
+ 				 border-top: 3px solid #a67262;
+			}
+			#fname{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#mname{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#lname{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#email{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#pwd{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#phone{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#address{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#bdate{
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#bplace{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#mother{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#father{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#gname{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#alphone{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#guardianadd{
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			@media (max-width: 1350px) {
+				.name label{
+					margin: 0px;
+				}
+				.name input {
+					padding-top: 10px;
+				}
+				.name {
+				    flex-direction: column;
+				    align-items: normal;
+				    margin-left: 50px;
+				    margin-right: 50px;
+				  }
+				.account label{
+					margin: 0px;
+				}
+				.account input {
+					padding-top: 10px;
+				}
+				.account {
+				    flex-direction: column;
+				    align-items: normal;
+				    margin-left: 50px;
+				    padding-right: 5px;
+				  }
+				.additional label{
+					margin: 0px;
+				}
+				.additional input {
+					padding-top: 10px;
+				}
+				.additional {
+				    flex-direction: column;
+				    align-items: normal;
+				    margin-left: 50px;
+				    margin-right: 50px;
+				  }
+				  p{
+					padding-bottom: 5px;
+					padding-left: 25px;
+					font-size: 18px;
+					font-family: georgia;
+				}
+				.additional2 label{
+					margin: 0px;
+				}
+				.additional2 input {
+					padding-top: 10px;
+				}
+				.additional2 {
+				    flex-direction: column;
+				    align-items: normal;
+				    margin-left: 50px;
+				    margin-right: 50px;
+				  }
+				}
+		</style>
+	</head>
+	<body>
+		<div>
+			<form action="practice.html">
+				<header>
+					<h1>Registration Form</h1>
+				</header>
+						<h2>Your Information</h2>
+							<nav class="name">
+								<label for="fname">First Name</label><br>
+								<input type="text" id="fname" name="fname" size="30"><br>
+								<label for="mname">Middle Name</label><br>
+								<input type="text" id="mname" name="mname" size="30"><br>
+								<label for="lname">Last Name</label><br>
+								<input type="text" id="lname" name="lname" size="30"><br>
+							</nav>
+							<br>
+							<nav class="account">
+								<label for="email">Email</label><br>
+								<input type="email" id="email" name="email"size="30"><br>
+								<label for="pwd">Password</label><br>
+								<input type="password" id="pwd" name="pwd"size="30"><br>
+							</nav>
+							<br>
+							<nav class="additional">
+								<label for="phone">Contact Number</label><br>
+								<input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" size="30"><br>
+								<label for="address">Complete Address</label><br>
+								<input type="text" id="address" name="address" size="30"><br>
+							</nav>
+							<br>
+							<nav class="additional">
+								<label for="bdate">Birth Date</label><br>
+								<input type="date" id="bdate" name="bdate"><br>
+								<label for="bplace">Birth Place</label><br>
+								<input type="text" id="bplace" name="bplace" size="30"><br>
+							</nav>
+							<br>
+								<p>Gender</p>
+								<br>
+							<nav class="additional2">
+								<input type="radio" id="male" name="gender" value="male">
+								<label for="male">Male</label><br>
+								<input type="radio" id="female" name="gender" value="female">
+								<label for="female">Female</label><br>
+							</nav>
+							<br>
+
+						<hr class="solid">
+
+						<h2>Other Information</h2>
+							<nav class="name">
+								<label for="mother">Mother's Name</label><br>
+								<input type="text" id="mother" name="mother" size="30"><br>
+								<label for="father">Father's Name</label><br>
+								<input type="text" id="father" name="father" size="30"><br>
+							</nav>
+							<br>
+							<nav class="additional">
+								<label for="gname">Guardian's Name</label><br>
+								<input type="text" id="gname" name="gname" size="30"><br>
+								<label for="alphone">Guardian's Number</label><br>
+								<input type="tel" id="alphone" name="alphone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" size="30"><br>
+							</nav>
+							<br>
+							<nav class="additional">
+								<label for="guardianadd">Guardian's Address</label><br>
+								<input type="text" id="guardianadd" name="guardianadd" size="30"><br>
+							</nav>
+							<br>
+							<input type="submit" id="submit" value="Submit">
+					</nav>
+			</form>
+		</div>
+	</body>
+	</html>
