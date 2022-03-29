@@ -1,0 +1,114 @@
+<DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login Form</title>
+		<style>
+			*{
+				box-sizing: border-box;
+				margin: 0px;
+				background-color: #915e4a;
+			}
+			form{
+				background-color: #ffc89c;
+				float: right;
+				display: block;
+				margin-top: 150px;
+				margin-right: 50px;
+			}
+			header{
+				background-color: #c9956b;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 25px;
+				padding-bottom: 25px;
+				text-align: center;
+				font-size: 25px;
+			}
+			h1{
+				background-color: #c9956b;
+				font-family: georgia;
+			}
+			.account{
+				background-color: #ffc89c;
+				flex-flow: row wrap;
+				align-items: center;
+				margin-left: 12px;
+				margin-top: 10px;
+			}
+			.account label{
+				background-color: #ffc89c;
+				font-family: georgia;
+				font-size: 18px;
+				margin: 0px 30px 0px 30px;
+			}
+			.account input {
+				vertical-align: middle;
+				margin: 1px 30px 1px 30px;
+				padding: 10px;
+				border: 1px solid;
+			}
+			#email{
+				background-color: whitesmoke;
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#pwd{
+				background-color: whitesmoke;
+				font-family: Times New Roman;
+				font-size: 16px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#register{
+				background-color: whitesmoke;
+				font-family: Times New Roman;
+				font-size: 20px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+				margin-left: 20px;
+			}
+			#login{
+				background-color: whitesmoke;
+				font-family: Times New Roman;
+				font-size: 20px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+				margin-left: 150px;
+			}
+			@media (max-width: 1350px) {
+				.account label{
+					margin: 0px;
+				}
+				.account input {
+					padding-top: 10px;
+				}
+				.account {
+				    flex-direction: column;
+				    align-items: normal;
+				    margin-left: 50px;
+				    padding-right: 5px;
+				  }
+				}
+		</style>
+	</head>
+	<body>
+		<div>
+			<form action="\Users\Administrator\Hannah\forms.html">
+				<header>
+					<h1>Log In</h1>
+				</header>
+							<nav class="account">
+								<label for="email">Email</label><br>
+								<input type="email" id="email" name="email"size="30"><br>
+								<label for="pwd">Password</label><br>
+								<input type="password" id="pwd" name="pwd"size="30"><br>
+							</nav>
+								<input type="button" onclick="alert('You are login')" id="login" value="Login">
+								<input type="submit" id="register" value="Register">
+			</form>
+		</div>
+	</body>
+	</html>
