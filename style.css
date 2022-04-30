@@ -1,0 +1,227 @@
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+/*OTHER EDITING*/
+*{
+	background-color: #FFFFFF;
+	font-family: 'Roboto';
+}
+hr.solid {
+	border-top: 1px solid #FFFFFF;
+}
+h2{
+	font-weight: 700;
+	font-size: 72px;
+	line height: 72px;
+	letter-spacing: -1px;
+}
+h4{
+	font-weight: 700;
+	font-size: 48px;
+	line height: 48px;
+	letter-spacing: -.08px;
+}
+.Font1{
+	font-size: 18px;
+}
+.Font2{
+	font-size: 20px;
+}
+.Font3{
+	font-size: 16px;
+}
+.Font4{
+	font-size: 24px;
+}
+
+/*PART 1*/
+.Part1{
+	margin-left: 48px;
+	margin-bottom: 200px;
+	margin-top: 30px;
+}
+.Part1 .mainNav{
+	padding-left: 42pc;
+	margin-top: -50px;
+}
+.Part1 .NavBar1 li{
+	display: inline-block;
+}
+.Part1 .NavBar1 li a{
+	display: inline-block;
+	padding-left: 25px;
+	color: #000000;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+}
+.Part1 .NavBar1 li a:hover{
+	color: #006AFF;
+}
+.Part1 .TitleButton{
+	padding: 0px 24px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+
+}
+.Part1 .TitleButton:hover{
+	color: #00D5FF;
+}
+.Part1 .ArticleButton{
+	padding: 0px 24px;
+	background-color: #FC0E52;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	margin: 48px 0 0 0;
+}
+.Part1 .ArticleButton:hover{
+	color: #00D5FF;
+}
+.Part1 .info4{
+	padding-top: 240px;
+}
+.Part1 #Pink{
+	height: 15%;
+	width: auto;
+	margin-left: -50px;
+	margin-top: 50px;
+}
+.Part1 #Balloon{
+	height: 652.05px;
+	width: auto;
+	margin-top: -70px;
+}
+
+/*PART 2*/
+.Part2{
+	margin-left: 48px;
+}
+.Part2 .columnInfo{
+	margin-left: 50px;
+	padding: 48px;
+	background: #FFFFFF;
+	border: none;
+	border-radius: 8px;
+}
+.Part2 .info3 li{
+	display: block;
+	margin-left: -50px;
+}
+.Part2 .info3 li a{
+	display: inline-block;
+	padding-left: 10px ;
+	color: #000000;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+}
+.Part2 .info3 li a:hover{
+	color: #000000;
+}
+.Part2 i{
+	padding-left: 30px;
+}
+
+/*EXTRA*/
+.pinkBackground{
+	display: box-size;
+	background: #FC0E52;
+	color: #FFFFFF;
+	padding-left: 48px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	margin-top: -30px;
+}
+.pinkBackground .info3 li{
+	display: block;
+	margin-left: -50px;
+	padding-top: 70px;
+}
+.pinkBackground .info3 li a{
+	display: inline-block;
+	padding-left: 10px ;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+}
+.pinkBackground .info3 li a:hover{
+	color: #FFFFFF;
+}
+.pinkBackground i{
+	padding-left: 30px;
+}
+.pinkBackground h3{
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+}
+
+/*PART 3*/
+.Part3{
+	padding-left: 96px;
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+
+/*PART 4*/
+.Part4 .Picture2{
+	width: 100%;
+	height: auto;
+}
+.Part4 .info2{
+	padding: 96px;
+}
+
+/*PART 5*/
+.Part5{
+	margin-top: 10px;
+	margin-left: 48px;
+}
+.Part5 .columnPic{
+	margin-top: 10px;
+	margin-left: 32px;
+}
+.Part5 .Picture3{
+	width: 110%;
+	height: auto;
+}
+.NavBar2 li{
+	display: inline-block;
+}
+.NavBar2 li a{
+	display: inline-block;
+	padding: 0px 24px 0px 24px;
+	color: #000000;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+}
+.NavBar2 li a:hover{
+	background-color: #FC0E52;
+	border: none;
+	border-radius: 50px;
+	color: #FFFFFF;
+}
+
+/*PART 6*/
+.Part6{
+	background: #000000;
+	color: #FFFFFF;
+	padding: 96px;
+}
+.Part6 .about{
+	margin-top: 96px;
+}
+.Part6 .info{
+	margin: 0 33px;
+}
